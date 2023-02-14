@@ -15,7 +15,7 @@ class PaintCalculator:
             userChoice = input("[1] Add a wall [2] Calculate paint required (and Exit) Please choose >>> ")
             if userChoice == "1":
                 newWall: Wall = None
-
+# this is a change
                 name = input("What's the name of the new wall?")
                 color = input("What color is the wall?")
                 shapeChoice = input("What kind of wall?" + "\n[1] Rectangle\n[2] Square\n[3] Triangle")
